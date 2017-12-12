@@ -1,4 +1,4 @@
-FROM mariadb:10.0.32
+FROM mariadb:10.2.11
 
 ADD my.cnf /etc/mysql/conf.d/my.cnf
 ADD import.sh /import.sh
